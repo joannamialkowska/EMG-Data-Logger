@@ -18,10 +18,10 @@ end
 clear device;
 
 %Plot raw data
-figure;
-plot(data(:,1),data(:,2),'b')
-title('Unprocessed Data')
-xlabel('Time [ms]')
-ylabel('Voltage [V]')
+%figure;
+%plot(data(:,1),data(:,2),'b')
+%title('Unprocessed Data')
+%xlabel('Time [ms]')
+%ylabel('Voltage [V]')
 
 end
