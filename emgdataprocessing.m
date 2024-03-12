@@ -1,11 +1,8 @@
-%function emgdataprocessing(data,fs)
-%data = readmatrix('no_low_highdata.xlsx','OutputType', 'double');
-%data = readmatrix('emg_pulsesdata.xlsx','OutputType', 'double');
-data = readmatrix('oneknolowhigh.xlsx','OutputType', 'double');
-fs = 1000;
+function emgdataprocessing(data,fs)
 
 t = data(:,1);
 v = data(:,2);
+
 %% Raw data plot
 figure(9);
 plot(t,v,'r')
