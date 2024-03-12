@@ -6,7 +6,6 @@ if ~isempty(instrfind)
       delete(instrfind);
 end
 
-
 %Initialize data parameters
 samplingRate = 200; %in Hz, must match Arduino IDE
 numSec = 30; %length of sample in seconds
