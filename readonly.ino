@@ -3,7 +3,6 @@
    unsigned t = 0;   // the time variable 
    unsigned v = 0;   // the voltage value
    unsigned s=0;  // start time
-  //unsigned a = 0;
 
    const int analogInPin = A11;
    
