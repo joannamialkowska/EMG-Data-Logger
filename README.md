@@ -1,5 +1,5 @@
 # EMG-Data-Logger
-UCSD Beng186 Final Project. Analog circuit with Arduino-based data logger, integrated with MATLAB for storing and processing data.
+UCSD Beng152/186 Final Project. Analog circuit with Arduino-based data logger, integrated with MATLAB for storing and processing data.
 
 Readonly.ino file contain arduino firmware (tested on the Mega2560 and Due) which read voltage sample at specified sampling rate from connected analog circuit. In MATLAB, arduino_serialinput.m receives data from Arduino and stores it in MATLAB. The emgdataprocessing.m file is responsible for processing and plotting the data.
 
